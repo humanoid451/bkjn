@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-  <script><![CDATA[alert('XSS');]]></script>
+<root xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <xhtml:script>alert('XSS');</xhtml:script>
 </root>
